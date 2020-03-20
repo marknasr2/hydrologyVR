@@ -1,0 +1,15 @@
+language: python
+
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t watershed .
+
+script:
+  - docker run -p 3000:5000 watershed -d
+
+notifications:
+  email: false

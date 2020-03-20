@@ -1,0 +1,8 @@
+Unity/Library/
+Unity/Temp/
+Unity/obj/
+
+# Visual Studio cache directory
+.vs/
+
+*.log
